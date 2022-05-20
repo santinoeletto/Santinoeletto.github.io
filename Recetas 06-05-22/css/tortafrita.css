@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=PT+Sans&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+}
+
+
+
+ #menu a{
+    font-family: 'PT Sans', sans-serif;
+    text-decoration:none;
+    color:inherit;
+    font-size:24px;
+    } 
+   #menu  li{
+    display:inline-block;
+    width:30%;
+    padding:5px 10px;
+    background-color:#000;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+
+
+    }
+   #menu li:hover{
+    background-color:#fff;
+    color:#000;
+    }
+
+
+
+#contenedor{
+width: 950px;
+height: 1400px;
+background-color: #718093;
+margin-right: auto;
+margin-left: auto;
+padding: 15px;
+}
+
+.subtitulo{
+color:  #e1b12c;
+font-family: 'PT Sans', sans-serif;
+
+}
+
+#receta{
+
+font-family: 'PT Sans', sans-serif;
+color:  #e1b12c;
+background-color: #000;
+margin-left: auto;
+margin-right: auto;
+width: 350px;
+padding: 15px;
+}
+
+#video{
+background-color: #fff ;
+width: 400px;
+height: 400px;
+padding: 20px;
+}

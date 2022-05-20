@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=PT+Sans&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+}
+
+.titulo{ color: #c23616;
+font-family: 'Montserrat', sans-serif;
+background-color: #f5f6fa;
+font-size: 60px;
+
+
+}
+body{
+
+	background-color: #dcdde1;
+}
+
+.subtitulo{
+color:  #e1b12c;
+font-family: 'PT Sans', sans-serif;
+
+}
+
+/*ID, osea botones*/
+#botones{
+width: 800px;
+height: 600px;
+background-color: #f5f6fa;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+}
+
+
+#contenedor{
+width: 960px;
+height: 1000px;
+background-color: #718093;
+margin-right: auto;
+margin-left: auto;
+padding: 15px;
+
+}
+
+ #menu a{
+    font-family: 'PT Sans', sans-serif;
+    text-decoration:none;
+    color:inherit;
+    font-size:24px;
+    } 
+   #menu  li{
+    display:inline-block;
+    width:30%;
+    padding:5px 10px;
+    background-color:#000;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+
+
+    }
+   #menu li:hover{
+    background-color:#fff;
+    color:#000;
+    }
+
+}
+
